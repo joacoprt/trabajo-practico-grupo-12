@@ -1,0 +1,14 @@
+:root {
+--color-primario:  #1A2B4A;
+--color-secundario: #C8960C;
+--color-fondo-: #F8F6F0;
+
+--color-texto-blanco: #fff;
+--fuente-principal: Poetsen One;
+}
+
+* { box-sizing: border-box;
+    margin: 10; 
+    padding: 10; }
+
+html{font-size: 16px;}

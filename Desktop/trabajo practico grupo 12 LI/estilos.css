@@ -3,11 +3,12 @@ VARIABLES Y COLORES
 */
 
 :root {
-  --color-primario: #1A2B4A;
+  --color-primario: #132038;
   --color-secundario: #C8960C;
   --color-fondo: #F8F6F0;
   --color-texto: #1A1A1A;
   --color-texto-blanco: #FFFFFF;
+  --color-azul-claro: #164396;
   --fuente-principal: 'Poetsen One', sans-serif;
 }
 
@@ -64,4 +65,39 @@ h3 {
 
 p {
   margin-bottom: 1rem;
+}
+
+header {
+  background-color: var(--color-azul-claro);
+  color: var(--color-texto-blanco);
+  padding: 1rem 0;
+  text-align: center;
+  
+  
+}
+
+nav ul {
+  
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+nav ul a {
+  color: var(--color-texto-blanco);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  color: var(--color-secundario);
+  text-decoration: underline;
+}
+
+.imagenSpringfield {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
 }

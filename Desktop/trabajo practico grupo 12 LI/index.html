@@ -13,21 +13,138 @@
     <header>
         <h1>Springfield</h1>
         <h2>La ciudad donde <em>todo</em> puede pasar</h2>
-        <img src="./IMG/springfield.png" alt="imagenDeLaCiudad">
-    
+        <figure class="imagenSpringfield">
+            <img src="./IMG/springfield.avif" alt="Vista ilustrada de Springfield">
+            <figcaption>Una primera mirada a la ciudad de Los Simpson.</figcaption>
+        </figure>
     </header>
     <nav>
         <ul>
-            <li><a href=""></a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ciudad.html">Conocé la ciudad</a></li>
+            <li><a href="lugares.html">Lugares turísticos</a></li>
+            <li><a href="contactos.html">Contacto</a></li>
         </ul>
     </nav>
     <main>
-        <h3><u>Bienvenidos a Springfield</u></h3>
-        <p>Springfield es una ciudad ficticia de Estados Unidos conocida por sus
-            particulares habitantes y sus situaciones inesperadas. La ciudad combina
-            zonas residenciales, areas comerciales, espacios recreativos y una importante zona industrial.
-            Es ideal para quienes buscan conocer una ciudad diferente y llena de entretenimiento.
-        </p>
+        <section aria-labelledby="bienvenida">
+            <h2 id="bienvenida">Bienvenidos a Springfield</h2>
+            <p>
+                Hogar de la familia Simpson, Springfield es una ciudad ficticia de Estados
+                Unidos que combina barrios suburbanos, comercios extravagantes y una
+                comunidad donde cualquier día tranquilo puede terminar en una aventura.
+                Su identidad se reconoce tanto por sus vecinos como por sus lugares
+                cotidianos, que suelen convertirse en escenario de situaciones insólitas.
+            </p>
+        </section>
+
+        <section aria-labelledby="lugares-destacados">
+            <h2 id="lugares-destacados">Postales de Springfield</h2>
+            <p>Algunos sitios que ayudan a reconocer el particular mundo de la serie:</p>
+            <div class="destacados">
+                <article>
+                    <h3>La Planta Nuclear</h3>
+                    <!-- Imagen sugerida: guardá el archivo en IMG/planta-nuclear.jpg y reemplazá este comentario por: <img src="./IMG/planta-nuclear.jpg" alt="Planta Nuclear de Springfield"> -->
+                    <p>
+                        El lugar de trabajo de Homero Simpson y una de las siluetas más
+                        conocidas de la ciudad. Sus torres de enfriamiento dominan el
+                        paisaje y son parte de muchas de sus historias.
+                    </p>
+                </article>
+                <article>
+                    <h3>La Escuela Primaria de Springfield</h3>
+                    <!-- Imagen sugerida: guardá el archivo en IMG/escuela-springfield.jpg y reemplazá este comentario por: <img src="./IMG/escuela-springfield.jpg" alt="Escuela Primaria de Springfield"> -->
+                    <p>
+                        El escenario de las travesuras de Bart y de las clases de Lisa.
+                        Entre el director Skinner, el salón y el patio, la escuela refleja
+                        a su manera la vida cotidiana de los chicos del pueblo.
+                    </p>
+                </article>
+                <article>
+                    <h3>El Kwik-E-Mart</h3>
+                    <!-- Imagen sugerida: guardá el archivo en IMG/kwik-e-mart.jpg y reemplazá este comentario por: <img src="./IMG/kwik-e-mart.jpg" alt="Tienda Kwik-E-Mart"> -->
+                    <p>
+                        La tienda de Apu es una parada habitual para comprar algo rápido
+                        y uno de los comercios más reconocibles de la serie. Su mostrador
+                        y sus estanterías esconden más de una anécdota.
+                    </p>
+                </article>
+                <article>
+                    <h3>La taberna de Moe</h3>
+                    <!-- Imagen sugerida: guardá el archivo en IMG/taberna-moe.jpg y reemplazá este comentario por: <img src="./IMG/taberna-moe.jpg" alt="Interior de la taberna de Moe"> -->
+                    <p>
+                        El bar de Moe es el punto de reunión de Homero y sus amigos.
+                        Sus conversaciones telefónicas y el grupo de parroquianos forman
+                        parte del humor característico de Springfield.
+                    </p>
+                </article>
+            </div>
+            <p>
+                Encontrá más detalles sobre estos y otros atractivos en
+                <a href="lugares.html">Lugares turísticos</a>.
+            </p>
+        </section>
+
+        <section aria-labelledby="cultura-eventos">
+            <h2 id="cultura-eventos">Cultura, ocio y eventos</h2>
+            <article>
+                <h3>Un partido de los Isótopos</h3>
+                <!-- Imagen sugerida: guardá el archivo en IMG/isotopos.jpg y reemplazá este comentario por: <img src="./IMG/isotopos.jpg" alt="Partido de los Isótopos de Springfield"> -->
+                <p>
+                    El equipo local de béisbol, los Isótopos de Springfield, es una
+                    excusa ideal para imaginar una tarde de tribunas, cánticos y pasión
+                    deportiva al estilo de la ciudad.
+                </p>
+            </article>
+            <article>
+                <h3>El concurso de chili</h3>
+                <!-- Imagen sugerida: guardá el archivo en IMG/concurso-chili.jpg y reemplazá este comentario por: <img src="./IMG/concurso-chili.jpg" alt="Concurso de chili de Springfield"> -->
+                <p>
+                    Las competencias de cocina y los festivales comunitarios son parte
+                    del espíritu de Springfield. El concurso de chili es una propuesta
+                    especialmente memorable para quienes disfrutan los sabores intensos
+                    y las rivalidades locales.
+                </p>
+            </article>
+            <article>
+                <h3>Una tarde en Krustyland</h3>
+                <!-- Imagen sugerida: guardá el archivo en IMG/krustyland.jpg y reemplazá este comentario por: <img src="./IMG/krustyland.jpg" alt="Parque temático Krustyland"> -->
+                <p>
+                    El parque temático de Krusty ofrece juegos, espectáculos y una
+                    experiencia tan disparatada como su dueño. Es una de las opciones
+                    de entretenimiento más llamativas del universo de la serie.
+                </p>
+            </article>
+        </section>
+
+        <section aria-labelledby="datos-curiosos">
+            <h2 id="datos-curiosos">Algunos datos para ubicarse</h2>
+            <dl>
+                <dt>Habitantes emblemáticos</dt>
+                <dd>
+                    La familia Simpson: Homero, Marge, Bart, Lisa y Maggie.
+                </dd>
+                <dt>Equipo local</dt>
+                <dd>
+                    Los Isótopos de Springfield, protagonistas de la pasión beisbolera
+                    de la ciudad.
+                </dd>
+                <dt>Un lugar para divertirse</dt>
+                <dd>
+                    Krustyland, el parque temático inspirado en el payaso Krusty.
+                </dd>
+            </dl>
+        </section>
+
+        <aside>
+            <h2>Seguí explorando</h2>
+            <p>
+                Para conocer mejor su historia y sus zonas, visitá
+                <a href="ciudad.html">Conocé la ciudad</a>. Si querés ver más paradas
+                y sus descripciones, seguí por
+                <a href="lugares.html">Lugares turísticos</a>.
+            </p>
+        </aside>
     </main>
 
 </body>

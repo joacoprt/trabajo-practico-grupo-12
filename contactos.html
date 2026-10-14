@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Springfield</title>
+    <link rel=stylesheet href="estilos.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body class="contacto-page">
+    <header>
+        <h1>Contactos de Springfield</h1>
+        <p>┬┐Una duda, una idea o una emergencia de donas? Estamos para leerte.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ciudad.html">Ciudad</a></li>
+            <li><a href="lugares.html">Lugares tur├¡sticos</a></li>
+            <li><a href="contactos.html" aria-current="page">Contactos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contacto-intro" aria-labelledby="titulo-contacto">
+            <p class="contacto-sello">Oficina de Atenci├│n al Vecino</p>
+            <h2 id="titulo-contacto">┬íContanos qu├® pasa!</h2>
+            <p>Prometemos leer tu mensaje antes de la pr├│xima pausa para el almuerzo.</p>
+        </section>
+
+        <div class="contacto-columnas">
+            <aside class="contacto-datos" aria-labelledby="titulo-datos">
+                <h2 id="titulo-datos">Tambi├®n nos encontr├ís ac├í</h2>
+                <p>Eleg├¡ tu medio favorito. No hace falta hablar con el jefe Wiggum.</p>
+                <ul>
+                    <li><span>Correo</span><a href="mailto:info@springfield.com">info@springfield.com</a></li>
+                    <li><span>Tel├®fono</span><a href="tel:+11234567890">(123) 456-7890</a></li>
+                    <li><span>Direcci├│n</span><strong>Av. Principal 123, Springfield</strong></li>
+                    <li><span>Horario</span><strong>Lunes a viernes, 9 a 17 h</strong></li>
+                </ul>
+            </aside>
+
+            <form class="formulario-contacto" action="mailto:info@springfield.com" method="post" enctype="text/plain">
+                <h2>Mand├í tu mensaje</h2>
+                <p>Los campos con * son obligatorios.</p>
+
+                <div class="campo-contacto">
+                    <label for="nombre">┬┐C├│mo te llam├ís? *</label>
+                    <input id="nombre" name="Nombre" type="text" autocomplete="name" placeholder="Ej.: Lisa Simpson" required>
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="email">Tu correo electr├│nico *</label>
+                    <input id="email" name="Correo" type="email" autocomplete="email" placeholder="vos@ejemplo.com" required>
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="tema">┬┐De qu├® se trata?</label>
+                    <select id="tema" name="Tema">
+                        <option value="Consulta general">Consulta general</option>
+                        <option value="Turismo">Turismo por Springfield</option>
+                        <option value="Eventos">Eventos y actividades</option>
+                        <option value="Sugerencia">Una sugerencia (┬íse aceptan ideas brillantes!)</option>
+                    </select>
+                </div>
+
+                <div class="campo-contacto">
+                    <label for="mensaje">Tu mensaje *</label>
+                    <textarea id="mensaje" name="Mensaje" rows="5" placeholder="Escrib├¡ tranquilo, no hay l├¡mite de donas..." required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje <span aria-hidden="true">ÔåÆ</span></button>
+                <p class="nota-formulario">Al enviar, se abrir├í tu aplicaci├│n de correo para completar el env├¡o.</p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

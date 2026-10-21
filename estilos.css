@@ -261,20 +261,3 @@ nav ul a:hover {
 .formulario-contacto button:hover {
   background-color: var(--color-azul-claro);
 }
-
-.formulario-contacto .nota-formulario {
-  margin: 0.75rem 0 0;
-  color: #555;
-  font-size: 0.8rem;
-}
-
-@media (max-width: 680px) {
-  .contacto-columnas {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .formulario-contacto {
-    padding: 1rem;
-  }
-}

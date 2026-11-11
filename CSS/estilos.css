@@ -84,7 +84,9 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 1rem;  
+  align-items: center,
+  flex-wrap: wrap;
+  gap: 1.5rem;  
 }
 
 nav {

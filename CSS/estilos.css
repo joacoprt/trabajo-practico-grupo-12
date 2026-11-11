@@ -307,4 +307,30 @@ nav ul a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
+//Contenedor para ubicar el badge sobree la imagen 
+
+.imagenSpringfield {
+  position: relative;
+}
+
+.badge-destacado {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+  font-size: 0.95rem;
+  padding: 0.6rem 1rem;
+  box-shadow: 3px 3px 0 var(--color-primario);
+  transform: rotate(3deg);
+}
+
+
+
+
+
+
+
+
+
+
 

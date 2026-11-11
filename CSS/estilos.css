@@ -84,7 +84,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center,
+  align-items: center;
   flex-wrap: wrap;
   gap: 1.5rem;  
 }
@@ -269,7 +269,7 @@ nav ul a:hover {
   background-color: var(--color-azul-claro);
 }
 
-//Seccion de destacados 
+/*Seccion de destacados */
 
 .destacados {
   display: flex;
@@ -290,7 +290,7 @@ nav ul a:hover {
   box-shadow: 4px 4px 0 var(--color-primario);
 }
 
-// Seccion de barrios en ciudad
+/* Seccion de barrios en ciudad*/
 
 .barrios-contenedor {
   display: flex;
@@ -307,7 +307,7 @@ nav ul a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
-//Contenedor para ubicar el badge sobree la imagen 
+/*Contenedor para ubicar el badge sobree la imagen */
 
 .imagenSpringfield {
   position: relative;
@@ -324,7 +324,7 @@ nav ul a:hover {
   transform: rotate(3deg);
 }
 
-//Personalizacion de componentes 
+/*Personalizacion de componentes */
 
 .badge-destacado.badge {
   background-color: var(--color-secundario);

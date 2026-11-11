@@ -268,3 +268,26 @@ nav ul a:hover {
 .formulario-contacto button:hover {
   background-color: var(--color-azul-claro);
 }
+
+//Seccion de destacados 
+
+.destacados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.destacados article {
+  flex: 1 1 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 2px solid var(--color-primario);
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 4px 4px 0 var(--color-primario);
+}
+
+

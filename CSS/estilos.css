@@ -324,7 +324,45 @@ nav ul a:hover {
   transform: rotate(3deg);
 }
 
+//Personalizacion de componentes 
 
+.badge-destacado.badge {
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  border: 2px solid var(--color-primario);
+}
+
+.btn-primary {
+  background-color: var(--color-primario);
+  border-color: var(--color-primario);
+  color: var(--color-texto-blanco);
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--color-azul-claro);
+  border-color: var(--color-azul-claro);
+}
+
+.btn-outline-primary {
+  color: var(--color-primario);
+  border-color: var(--color-primario);
+  border-width: 2px;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--color-secundario);
+  border-color: var(--color-primario);
+  color: var(--color-primario);
+}
+
+/* Personalización del navbar de Bootstrap */
+.navbar {
+  background-color: var(--color-azul-claro) !important;
+  border-bottom: 3px solid var(--color-secundario);
+}
 
 
 

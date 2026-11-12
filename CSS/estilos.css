@@ -23,8 +23,8 @@ RESET Y TIPOGRAFIA GLOBAL
 }
 
 html {
-  font-size: 16px;
-
+  font-size: 1.6em;
+  background: url("../IMG/fondo-intro.jpg") center / cover fixed no-repeat;
 }
 
 body {
@@ -35,7 +35,7 @@ body {
   font-family: var(--fuente-principal);
   font-size: 1rem;
   line-height: 1.6;
-  background-color: var(--color-fondo);
+  background-color: rgba(248, 246, 240, 0.88);
   color: var(--color-texto);
   max-width: 1100px;
   margin: 0 auto;
@@ -269,6 +269,8 @@ nav ul a:hover {
   background-color: var(--color-azul-claro);
 }
 
+
+
 /*Seccion de destacados */
 
 .destacados {
@@ -364,8 +366,29 @@ nav ul a:hover {
   border-bottom: 3px solid var(--color-secundario);
 }
 
+/*MODO OSCURO */
 
+body.oscuro {
+  background-color: #121212;
+  color: #f5f5f5;
+}
 
+body.oscuro h1,
+body.oscuro h3 {
+  color: var(--color-secundario);
+}
+
+body.oscuro .destacados article,
+body.oscuro .barrio,
+body.oscuro .formulario-contacto {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border-color: var(--color-secundario);
+}
+
+body.oscuro .campo-contacto label {
+  color: var(--color-secundario);
+}
 
 
 

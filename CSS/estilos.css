@@ -300,6 +300,10 @@ nav ul a:hover {
   margin-bottom: 1rem;
 }
 
+.destacados article img.img-taberna {
+  height: 320px;
+}
+
 /* Seccion de barrios en ciudad*/
 
 .barrios-contenedor {

@@ -115,6 +115,12 @@ nav ul a:hover {
   padding: 0 1rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .imagenSpringfield img {
   display: block;
   width: 100%;
@@ -273,8 +279,9 @@ nav ul a:hover {
 
 /*Seccion de destacados */
 
+
 .destacados {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 1.5rem 0;
@@ -390,7 +397,10 @@ body.oscuro .campo-contacto label {
   color: var(--color-secundario);
 }
 
-
+html.oscuro {
+  font-size: 1.6em;
+  background: url("../IMG/fondoModoOscuro.png") center / cover fixed no-repeat;
+}
 
 
 

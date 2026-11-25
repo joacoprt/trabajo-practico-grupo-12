@@ -413,6 +413,17 @@ html.oscuro {
   background: url("../IMG/fondoModoOscuro.png") center / cover fixed no-repeat;
 }
 
+/*Footer centrado*/
+footer {
+  background-color: var(--color-azul-claro);
+  color: var(--color-texto-blanco);
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
 
+footer p {
+  margin-bottom: 0;
+}
 
 

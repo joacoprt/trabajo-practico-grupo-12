@@ -420,6 +420,7 @@ footer {
   text-align: center;
   padding: 1.5rem 0;
   margin-top: 2rem;
+  border-top: 3px solid var(--color-secundario);
 }
 
 footer p {
